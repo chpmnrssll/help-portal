@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler
 install:
-  - bundle install --full-index
+  - bundle install --path=vendor
 script: bundle exec jekyll build
 rvm:
   - 2.5.1
