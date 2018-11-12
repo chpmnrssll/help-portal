@@ -1,6 +1,8 @@
 title: Help Portal
 description: Gitbook markdown to Wordpress compatible HTML.
 
+baseurl: /help-portal
+
 sass:
   style: compressed
 
