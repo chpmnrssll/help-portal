@@ -18,6 +18,7 @@ after_success:
   - git clone https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
   - cp -f _site/*.* static-output
   - cd static-output
+  - git checkout master
   - git add .
   - git commit -m "Generate static HTML output"
   - git push https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git HEAD:master
