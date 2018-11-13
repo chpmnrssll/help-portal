@@ -15,7 +15,7 @@ deploy:
     branch: master
 
 after_success:
-  - git clone https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
+  - git clone https://github.com/chpmnrssll/static-output.git
   - cd static-output
   - git checkout master
   - cd ..
