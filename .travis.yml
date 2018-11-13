@@ -15,8 +15,9 @@ deploy:
     branch: master
 
 after_success:
-  - cd _site
-  - git init
-  - ls -la
-  - git remote add output https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
-  - git push output https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
+  - git clone https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
+  - cp -f _site/*.* static-output
+  - cd static-output
+  - git add .
+  - git commit -m "Generate static HTML output"
+  - git push https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
