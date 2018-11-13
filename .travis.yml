@@ -21,4 +21,4 @@ after_success:
   - git checkout master
   - git add .
   - git commit -m "Generate static HTML output"
-  - git push https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git HEAD:master
+  - git push https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
