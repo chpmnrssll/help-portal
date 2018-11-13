@@ -13,3 +13,7 @@ deploy:
   keep-history: true
   on:
     branch: master
+
+after_success:
+  - git remote add output https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
+  - git push output https://${GH_TOKEN}github.com/chpmnrssll/static-output.git
