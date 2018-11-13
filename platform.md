@@ -1,3 +1,4 @@
 ---
+product: Know Your Customer
 ---
-# platform.md
+# KYC on platform

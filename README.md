@@ -1,6 +1,4 @@
----
----
-# Convert GitBook markdown to Wordpress compatible HTML using Jekyll and Travis-CI
+Convert GitBook markdown to Wordpress compatible HTML using Jekyll and Travis-CI
 
 local env
 ```

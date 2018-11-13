@@ -4,4 +4,4 @@ capability: actions
 infotype: task
 audience: KYC Analyst, Finance Manager
 ---
-# actions.md
+# KYC platform actions
