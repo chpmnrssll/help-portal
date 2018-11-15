@@ -1,7 +1,6 @@
 .sidebar {
   background-color: $color-grey-1;
-  height: 100%;
-  position: absolute;
+  min-height: 100%;
   min-width: 200px;
 
   .logo {
@@ -14,11 +13,9 @@
     font-family: "Lota Grotesque - Regular";
     font-size: 14px;
     font-weight: 400;
-    height: 100%;
     line-height: 28px;
-    margin-left: 30px;
-    margin-top: 25px;
-    // position: absolute;
+    min-height: 100%;
+    margin: 25px 30px 0;
 
     h1 {
       border-bottom: 1px solid $color-grey-2;
