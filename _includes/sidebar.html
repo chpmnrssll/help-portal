@@ -3,7 +3,7 @@
     <img src="{{ site.baseurl }}/assets/images/Logo.svg" alt="Komgo">
   </div>
   <div class="dashboard">
-    {% capture summary %}{% include_relative SUMMARY.md %}{% endcapture %}
+    {% capture summary %}{% include SUMMARY.md %}{% endcapture %}
     {{ summary | markdownify }}
   </div>
 </nav>
