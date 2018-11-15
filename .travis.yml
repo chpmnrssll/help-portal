@@ -12,7 +12,9 @@ deploy:
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
   on:
-    branch: Build
+   branches:
+      only:
+        - Build
 
 after_success:
   - git clone https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
