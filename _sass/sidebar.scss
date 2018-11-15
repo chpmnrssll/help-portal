@@ -9,7 +9,7 @@
     margin-top: 36px;
   }
 
-  .task-dashboard {
+  .dashboard {
     color: $color-grey-7;
     font-family: "Lota Grotesque - Regular";
     font-size: 14px;
@@ -18,18 +18,26 @@
     margin-left: 30px;
     margin-top: 25px;
 
-    .active {
-      color: $color-primary-1;
+    h1 {
+      border-bottom: 1px solid $color-grey-2;
+      font-size: .75rem;
+      // display: none;
     }
+    h2 {
+      font-size: 1rem;
+    }
+
     ul {
       list-style-type: none;
       margin: 0;
       padding-inline-start: 0;
+
+      a {
+        @extend .text-link_subdued;
+        // color: $color-grey-7;
+        // text-decoration: none;
+      }
     }
-    a {
-      @extend .text-link_subdued;
-      color: $color-grey-7;
-      // text-decoration: none;
-    }
+
   }
 }
