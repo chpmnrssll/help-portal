@@ -1,0 +1,35 @@
+.sidebar {
+  background-color: $color-grey-1;
+  height: 100%;
+  position: absolute;
+  width: 200px;
+
+  .logo {
+    margin-left: 30px;
+    margin-top: 36px;
+  }
+
+  .task-dashboard {
+    color: $color-grey-7;
+    font-family: "Lota Grotesque - Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 30px;
+    margin-top: 25px;
+
+    .active {
+      color: $color-primary-1;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding-inline-start: 0;
+    }
+    a {
+      @extend .text-link_subdued;
+      color: $color-grey-7;
+      // text-decoration: none;
+    }
+  }
+}

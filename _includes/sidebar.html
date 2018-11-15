@@ -1,0 +1,15 @@
+<nav class="sidebar">
+  <div class="logo">
+    <img src="{{ site.baseurl }}/assets/images/Logo.svg" alt="Komgo">
+  </div>
+  <div class="task-dashboard">
+    <ul>
+      <li><a class="active" href="{{ site.baseurl }}/">Task Dashboard</a></li>
+    </ul>
+    {% capture summary %}{% include_relative SUMMARY.md %}{% endcapture %}
+    {{ summary | markdownify }}
+    <ul>
+      <li><a href="{{ site.baseurl }}/request-template/">Request Template</a></li>
+    </ul>
+  </div>
+</nav>

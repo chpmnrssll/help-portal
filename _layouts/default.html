@@ -37,23 +37,10 @@
 </head>
 
 <body>
-  <header>
-    <form class="searchForm" action="index.html" method="post">
-      <input type="text" name="search" value="Search">
-    </form>
-  </header>
-  <main>
-    <nav class="summary">
-      {% capture summary %}{% include_relative SUMMARY.md %}{% endcapture %}
-      {{ summary | markdownify }}
-    </nav>
-    <div class="content">
-      {{ content }}
-      <hr>
-      <div class="contact">Need to speak to us? <a href="#">Contact us</a></div>
-    </div>
+  {% include sidebar.html %}
+  <main class="content">
+    {{ content }}
   </main>
-  <footer></footer>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </body>
 
