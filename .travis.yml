@@ -15,12 +15,13 @@ deploy:
     branch: master
 
 after_success:
-  - git clone https://github.com/chpmnrssll/static-output.git
+  - git clone https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
   - cd static-output
-  - git checkout master
-  - cd ..
-  - cp -f _site/*.* static-output/
-  - cd static-output
+  # - git checkout master
+  # - cd ..
+  # - cp -f _site/*.* static-output/
+  - cp -rf ../_site .
+  # - cd static-output
   - git add .
   - git commit -m "Generate static HTML output"
   - git push https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
