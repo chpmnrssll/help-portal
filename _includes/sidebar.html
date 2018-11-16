@@ -1,9 +1,10 @@
 <nav class="sidebar">
   <div class="logo">
-    <img src="{{ site.baseurl }}/assets/images/Logo.svg" alt="Komgo">
+    <a href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/images/Logo.svg" alt="Komgo">
+    </a>
   </div>
   <div class="dashboard">
-    <!-- {% capture summary %}{% include SUMMARY.md %}{% endcapture %} -->
-    {{ summary | markdownify }}
+    {% include SUMMARY.html %}
   </div>
 </nav>
