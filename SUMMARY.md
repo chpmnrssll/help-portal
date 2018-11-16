@@ -2,7 +2,7 @@
 
 ## komgo
 
-* [Platform Overview]
+* [Platform Overview](index.html)
 
 ## Know Your Customer \(KYC\)
 
