@@ -10,21 +10,21 @@
 
 body, html {
   font-family: LotaGrotesque-Regular;
-  // display: flex;
   margin: 0;
   padding: 0;
 }
+
 .wrapper {
-  width: 100%;
+  display: grid;
+  grid-template-areas: "nav content";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+
+  height: 100vh;
 }
 
 .content {
-  float: left;
   padding: 0 40px;
-  // min-height: 100%;
-  // margin-left: 240px;
-  // margin-right: 40px;
-  // max-width: 640px;
 
   h1 {
     height: 30px;
@@ -35,7 +35,6 @@ body, html {
     line-height: 30px;
     margin: 0 0 40px;
     padding-top: 38px;
-    padding-left: 40px;
   }
 }
 

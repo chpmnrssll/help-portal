@@ -2,7 +2,6 @@
   background-color: $color-grey-1;
   float: left;
   height: 100%;
-  // width: 400px;
 
   .logo {
     padding-left: 30px;
@@ -30,6 +29,11 @@
       margin: 0;
       padding-inline-start: 0;
 
+      li {
+        ul {
+          margin-left: 1rem;
+        }
+      }
       a {
         @extend .text-link_subdued;
         // color: $color-grey-7;
