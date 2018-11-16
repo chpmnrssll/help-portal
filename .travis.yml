@@ -17,7 +17,8 @@ deploy:
 after_success:
   - git clone https://${GITHUB_TOKEN}github.com/chpmnrssll/static-output.git
   - cd static-output
-  - git checkout Build
+  - git checkout master
+  - git pull
   - cp -rf ../_site .
   - git add .
   - git commit -m "Generate static HTML output"
