@@ -1,16 +1,17 @@
 .sidebar {
   background-color: $color-grey-1;
-  min-height: 100%;
-  width: 400px;
+  float: left;
+  height: 100%;
+  // width: 400px;
 
   .logo {
-    margin-left: 30px;
-    margin-top: 36px;
+    padding-left: 30px;
+    padding-top: 36px;
   }
 
   .dashboard {
     color: $color-grey-7;
-    font-family: "Lota Grotesque - Regular";
+    font-family: LotaGrotesque-Regular;
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
@@ -18,9 +19,7 @@
     margin: 25px 30px 0;
 
     h1 {
-      border-bottom: 1px solid $color-grey-2;
-      font-size: .75rem;
-      // display: none;
+      display: none;
     }
     h2 {
       font-size: 1rem;

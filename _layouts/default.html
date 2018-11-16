@@ -37,10 +37,13 @@
 </head>
 
 <body>
-  {% include sidebar.html %}
-  <main class="content">
-    {{ content }}
-  </main>
+  <div class="wrapper">
+    {% include sidebar.html %}
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/MyFontsWebfontsKit.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </body>
 
