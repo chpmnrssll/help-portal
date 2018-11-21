@@ -1,8 +1,8 @@
 # Summary
 
-## komgo
+## komgo User Documentation
 
-* [Platform Overview](index.html)
+* [komgo Platform Overview](index.html)
 
 ## User Administration
 
