@@ -178,30 +178,31 @@
 
     <main class="content">
       <h1 id="json-schema-for-information-sent-by-komgo">JSON Schema for Information Sent by komgo</h1>
-<p>{
-    “staticId”: UUIDV4_String,
-    “x500Name”: {
-    “CN”:”Display Name”,
-    “O”: “Legal Name”,
-    “C”: “Country Code alpha two letter”,
-    “L”: “Locality”,
-    “STREET”: “address”,
-    “PC”: “post code”
-    }
-    “hasSWIFTKey”: boolean,
-    “isFinancialInstitution”:boolean,
-    “isMember”:boolean,
-    “komgoMnid”: UUIDV4_String,
-    “rabbitMQCommonUser”: komgoMnid,
-    “rabbitMQCommonPassword”: 32bytes alpa-numeric password,
-    <font color="green">"rabbitMQInternalAdmin":"admin",
-    "rabbitMQInternalPassword":32bytes alpa-numeric password,
-    "rabbitMQInternalCookie":32bytes alpa-numeric password,
-    "keycloackPassword":32bytes alpa-numeric password,
-    "keycloackPostgresqlPassword":32bytes alpa-numeric password,</font>
-    “harbourUser”: staticId,
-    “harbourPassword”:32bytes alpa-numeric password,
-    “ensAddress”:hex string
+
+<p>{<br />
+    “staticId”: UUIDV4_String,<br />
+    “x500Name”: {<br />
+    “CN”:”Display Name”,<br />
+    “O”: “Legal Name”,<br />
+    “C”: “Country Code alpha two letter”,<br />
+    “L”: “Locality”,<br />
+    “STREET”: “address”,<br />
+    “PC”: “post code”<br />
+    }<br />
+    “hasSWIFTKey”: boolean,<br />
+    “isFinancialInstitution”:boolean,<br />
+    “isMember”:boolean,<br />
+    “komgoMnid”: UUIDV4_String,<br />
+    “rabbitMQCommonUser”: komgoMnid,<br />
+    “rabbitMQCommonPassword”: 32bytes alpa-numeric password,<br />
+    <font color="green">"rabbitMQInternalAdmin":"admin",  
+    "rabbitMQInternalPassword":32bytes alpa-numeric password,  
+    "rabbitMQInternalCookie":32bytes alpa-numeric password,  
+    "keycloackPassword":32bytes alpa-numeric password,  
+    "keycloackPostgresqlPassword":32bytes alpa-numeric password,</font><br />
+    “harbourUser”: staticId,<br />
+    “harbourPassword”:32bytes alpa-numeric password,<br />
+    “ensAddress”:hex string<br />
 }</p>
 
 <p>Attributes in “Black” are information assigned to the Member Company by komgo. They must be used to configure the env file</p>

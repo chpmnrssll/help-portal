@@ -188,15 +188,13 @@
 <p>Step-by-step guide</p>
 
 <ol>
-  <li>
-    <p>Edit the configure.sh script and add the following lines</p>
+  <li>Edit the configure.sh script and add the following lines</li>
+</ol>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "[ Set sslRequired for komgo (and master) realms according to variable ]"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "[ Set sslRequired for komgo (and master) realms according to variable ]"
 docker exec komgo-keycloak /opt/jboss/keycloak/bin/kcadm.sh update realms/komgo -s sslRequired=$KEYCLOAK_SSL_REQUIRED
 docker exec komgo-keycloak /opt/jboss/keycloak/bin/kcadm.sh update realms/master -s sslRequired=$KEYCLOAK_SSL_REQUIRED
-</code></pre></div>    </div>
-  </li>
-</ol>
+</code></pre></div></div>
 
 <p>Attention, these command, one for each realm, only work after the kcadm.sh has been connected with login password which is performed in</p>
 
@@ -204,11 +202,11 @@ docker exec komgo-keycloak /opt/jboss/keycloak/bin/kcadm.sh update realms/master
 
 <ol>
   <li>In this script or where you set all your variables, set the KEYCLOAK_SSL_REQUIRED to
-    <ol>
+    <ul>
       <li>“none” if you need disabling mandatory https request (DEVELOPMENT ONLY)</li>
       <li>“external” (default) if only requests from outside the docker or docker network should be https</li>
       <li>“all” if all requests should be https</li>
-    </ol>
+    </ul>
   </li>
   <li>Restart keycloak docker instance (or all dockers), et voila</li>
 </ol>
