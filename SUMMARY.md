@@ -1,8 +1,8 @@
 # Summary
 
-## komgo User Documentation
+## komgo
 
-* [komgo Platform Overview](index.html)
+* [Platform Overview](index.html)
 
 ## User Administration
 
@@ -24,10 +24,7 @@
   * [Counterparty Management Screen](counterparty-management/counterparty-management-main-screens/counterparty-management-screen.html)
 * [Counterparty Management Roles on komgo](counterparty-management/counterparty-management-roles-on-komgo.html)
 * [Counterparty Management Platform Actions](counterparty-management/counterparty-management-platform-actions/README.html)
-  * [View list of authorized counterparties](counterparty-management/counterparty-management-platform-actions/view-list-of-authorized-counterparties.html)
-  * [Add a new counterparty](counterparty-management/counterparty-management-platform-actions/add-a-new-counterparty.html)
-  * [Review counterparty request](counterparty-management/counterparty-management-platform-actions/review-counterparty-request.html)
-  * [Add corporate counterparties for received trade \(auto\)](counterparty-management/counterparty-management-platform-actions/add-corporate-counterparties-for-received-trade-auto.html)
+  * [Counterparty Management](counterparty-management/counterparty-management-platform-actions/view-list-of-authorized-counterparties.html)
 
 ## Know Your Customer \(KYC\)
 
@@ -41,16 +38,10 @@
   * [KYC Manager & Analyst \(Bank\)](know-your-customer-kyc/kyc-user-roles-on-komgo/kyc-manager-and-analyst-bank.html)
   * [Compliance Analyst & Manager \(Corporates\)](know-your-customer-kyc/kyc-user-roles-on-komgo/compliance-analyst-and-manager-corporates.html)
 * [KYC platform actions](know-your-customer-kyc/kyc-platform-actions/README.html)
-  * [Document Request with the template \(Load Template Button\)](know-your-customer-kyc/kyc-platform-actions/document-request-with-the-template-load-template-button.html)
-  * [Create Document Request Template](know-your-customer-kyc/kyc-platform-actions/create-document-request-template.html)
-  * [Document Request](know-your-customer-kyc/kyc-platform-actions/document-request.html)
-  * [Complete Request](know-your-customer-kyc/kyc-platform-actions/complete-request.html)
-  * [Register Document](know-your-customer-kyc/kyc-platform-actions/register-document.html)
-  * [Send Response](know-your-customer-kyc/kyc-platform-actions/send-response.html)
-  * [Download and Save Documents](know-your-customer-kyc/kyc-platform-actions/download-and-save-documents.html)
-  * [Review Documents](know-your-customer-kyc/kyc-platform-actions/review-documents.html)
-  * [View a Document](know-your-customer-kyc/kyc-platform-actions/view-a-document.html)
-  * [Share Document Ad Hoc](know-your-customer-kyc/kyc-platform-actions/share-document-ad-hoc.html)
+  * [Document Request](know-your-customer-kyc/kyc-platform-actions/document-request-with-the-template-load-template-button.html)
+  * [Responding to a Document Request](know-your-customer-kyc/kyc-platform-actions/complete-request.html)
+  * [Document Review](know-your-customer-kyc/kyc-platform-actions/download-and-save-documents.html)
+  * [Document Library](know-your-customer-kyc/kyc-platform-actions/view-a-document.html)
 
 ## Trade Finance
 
@@ -61,6 +52,15 @@
   * [LC Dashboard](trade-finance/main-dashboards/lc-dashboard.html)
 * [Trade Finance Roles on komgo](trade-finance/trade-finance-roles-on-komgo.html)
   * [Trade Finance Manager \(Corporates\)](trade-finance/trade-finance-roles-on-komgo/trade-finance-manager-corporates.html)
+  * [Relationship Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/relationship-manager-banks.html)
+  * [Middle/Back Office Manager \(Banks\)](trade-finance/trade-finance-roles-on-komgo/middleback-office-manager-banks.html)
+* [Trade Finance Platform Actions](trade-finance/trade-finance-platform-actions.html)
+  * [View Trade dashboard](trade-finance/trade-finance-platform-actions/view-trade-dashboard.html)
+  * [View Trade Details](trade-finance/trade-finance-platform-actions/view-trade-details.html)
+  * [Apply for a Letter of Credit](trade-finance/trade-finance-platform-actions/apply-for-a-letter-of-credit.html)
+  * [LC Issuance ](trade-finance/trade-finance-platform-actions/lc-issuance.html)
+  * [LC Advised](trade-finance/trade-finance-platform-actions/lc-advised.html)
+  * [LC Acknowledge](trade-finance/trade-finance-platform-actions/lc-acknowledge.html)
 
 ## Technical Guide
 
@@ -98,7 +98,7 @@
   * [How to configure Keycloak for HTTP \(for QA region\)](general-information/troubleshooting-faq-live-section/how-to-configure-keycloak-for-http-for-qa-region.html)
   * [How to fix “Permission Denied” error on Internal RabbitMQ Broker](general-information/troubleshooting-faq-live-section/how-to-fix-permission-denied-error-on-internal-rabbitmq-broker.html)
 * [Known issues](general-information/known-issues.html)
-* [Issue reporting](general-information/issue-reporting.html)
+* [Issue Reporting](general-information/issue-reporting.html)
 * [Appendix A - Glossary](general-information/appendix-a-glossary.html)
 * [Appendix B - References](general-information/appendix-b-references.html)
 * [Appendix C - Swagger Definitions](general-information/appendix-c-swagger-definitions.html)
