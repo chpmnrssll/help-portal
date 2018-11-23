@@ -6,6 +6,7 @@
 @import "sidebar";
 @import "tables";
 @import "tasks";
+@import "footer";
 @import "request-template";
 @import "styleGuide";
 
@@ -19,8 +20,6 @@ body, html {
   display: grid;
   grid-template-areas: "nav content";
   grid-template-columns: 470px auto;
-  grid-template-rows: auto auto;
-
   height: 100vh;
 }
 
