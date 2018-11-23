@@ -20,7 +20,7 @@ body, html {
   display: grid;
   grid-template-areas: "nav content";
   grid-template-columns: 470px auto;
-  height: 100vh;
+  height: 100%;
 }
 
 .content {
